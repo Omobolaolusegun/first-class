@@ -34,7 +34,8 @@ const Counter =()=>{
             {User.school}
             <button onClick={changeName} className="text-white m-2 bg-green-500 rounded p-2">changeName</button>
 
-            
+            <img src="iStock-1169539468.jpg" alt=""/>
+            <img src="imperial.png" alt=""/>
         </div>
         
 

@@ -5,10 +5,16 @@ function Navbar() {
     
       <nav class="navbar navbar-expand-lg bg-light  fixed-top top-0">
         <div class="container-fluid mx-auto shadow-lg ">
-          <a class="navbar-brand text-primary fs-3" href="#">
+          <a class="navbar-brand text-primary fw-bld fs-4" href="#">
             COURSERA
-    {/* <Counter/> */}
           </a>
+          {/* <a class="navbar-brand text-light  bg-primary" href="#">
+            Explorer
+            <ul class="dropdown-menu"></ul>
+          </a>
+          <a class="navbar-brand text-primary fs-4" href="#">
+            Action
+          </a> */}
           <button
             class="navbar-toggler"
             type="button"
@@ -34,7 +40,7 @@ function Navbar() {
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item text-dark" href="#">
                       Action
                     </a>
                   </li>
@@ -89,7 +95,7 @@ function Navbar() {
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
+              <li class="nav-item ">
                 <a class="nav-link" href="#">
                   Find your New Career
                 </a>
@@ -100,7 +106,7 @@ function Navbar() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link text-dark" href="#">
                   For Universities
                 </a>
               </li>
@@ -124,10 +130,11 @@ function Navbar() {
 
       <div
         id="close"
-        className="text-center rounded-0 alert alert-primary w-100"
+        className="text-center rounded-0 alert alert-primary w-100 text-dark fs-5"
       >
-        Discover neuroscientific strategies to drive employee engagement{" "}
-        <span className="text-decoration-underline">Get theE-book </span>{" "}
+        New!{" "}
+        <span className="text-decoration-underline fw-bold text-dark">2023 learner outcome report. </span>{" "}
+        <span className="fs-5">Discover how 77% learners achieved career benefits on Cousera.</span>
         <button
           className="btn btn-close bg-light text-dark rounded-0"
           data-bs-dismiss="alert"
@@ -136,25 +143,24 @@ function Navbar() {
       </div>
       <br />
       <br />
-     
       <div className="container ">
         <div className="d-flex ">
           
           <div className="col-8">
-          <div className="col-4 mt-4">
-            <h1 className="fs-1">Learn without limits</h1>
+          <div className="col-4 mt-4 mx-5">
+            <h1 className="fs-1 fw-bold">Learn without limits</h1>
           </div>
-            <div className="mt-4 fs-5 ">
+            <div className="mt-4 fs-5 mx-5">
               Start, switch, or advance your career with more than 5,400
             </div>
-            <div className="fs-5 ">
+            <div className="fs-5 mx-5">
               courses, Professional Certificates, and degrees from world-class
             </div>
-            <div className="fs-5">universities and companies.</div>
+            <div className="fs-5 mx-5">universities and companies.</div>
             {/* <div className="btn btn-primary mt-3">Join for Free</div>
                <div>Try Coursera for Bussiness</div> */}
-            <button class="btn btn-primary p-3 mt-3 ">Join for Free</button>
-            <button class=" pe-4 px-4 mx-3 mt-3 text-primary border-primary">
+            <button class="btn btn-primary p-3 mt-3 mx-5 fw-bold">Join for Free</button>
+            <button class=" pe-4 px-4 mx-3 mt-3 text-primary border-primary border round fs-5 fw-bold mt-5">
               Try Coursera for Bussiness
             </button>
           </div>
@@ -165,22 +171,22 @@ function Navbar() {
           />
         </div>
       </div>
+     
 
-      <div className="w-100 bg-secondary shadow-sm mt-4 p-5 text-center fs-3">
+      <div className="w-100 bg-light shadow-sm m-auto p-5 text-center fs-3 fw-bold">
         We collaborate with{" "}
-        <span className="text-primary text-decoration-underline">
-          275+ leading universities and companies
+        <span className="text-primary fw-bold">
+          300+ leading universities and companies
         </span>
         <div className="container">
           <div className="d-flex">
-            <div className="col-8">
+            <div className="col-9">
               <img
                 className="" src="illinois-3.png" alt=""
               />
-              
-              <img className="mx-3" src="duke-3.png" alt="" />
+              <img className="" src="duke-3.png" alt="" />
               <img className="" src="google.png" alt="" />
-              <img className="mx-3" src="IBM-Logo-Blk---Square.png" alt="" />
+              <img className="mx-4" src="IBM-Logo-Blk---Square.png" alt="" />
               <img className="mx-3" src="ImperialCollegeLondon_BLUE_500x500px.png" alt="" />
               <img className="" src="imperial.png" alt="" />
             </div>
@@ -188,10 +194,29 @@ function Navbar() {
         </div>
       </div>
 
-      <div className="text-primary mt-3 mx-4 fs-4 fw-bold">Professional Certificates</div>
-      <div className=" mt-3 mx-4 fs-3">Get job-ready for an in-demand career</div>
-      <div className=" mt-3 mx-4 fs-5">Break into a new field like information technology or data science. No prior experience necessary to get started.</div>
+      <div className="text-dark mt-3 mx-5 fs-4 fw-bold">Launch a new career in as little as 6 months <span className="fs-6 mx-4">View all roles-</span></div> 
+      {/* <div className=" mt-3 mx-4 fs-3">Get job-ready for an in-demand career</div>
+      <div className=" mt-3 mx-4 fs-5">Break into a new field like information technology or data science. No prior experience necessary to get started.</div> */}
+
+
+   <div className="container">
+     <div className="row">
+       <div className="col-12 shadow bg-danger">
+      <h1>hello</h1>
+       </div>
+     </div>
+   </div>
+
+     {/* <div className="w-100 bg-light shadow-sm m-auto">
+      <div className="mx-5 mt-4 text-primary">Project Manager <span className="text-dark mx-3">Data Analyst</span>
+      </div> */}
+
+
+
+     {/* </div> */}
       
+
+     
     </>
   );
 }

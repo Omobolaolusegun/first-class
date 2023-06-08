@@ -4,12 +4,14 @@ import Navbar from "./components/Navbar"
 // import Child from "./components/Child"
 // import counter from "./components/counter"
 import Counter from './components/Counter'
+import SignIn from './components/SignIn'
+
 // import style from "./components/app.module.css"
 
 const App = () =>{
-      let myName = "Esther"
-      let allFruits = ["Banana", "apple", "Mango"]
-      let myLink = "https://www.google.com"
+      // let myName = "Esther"
+      // let allFruits = ["Banana", "apple", "Mango"]
+      // let myLink = "https://www.google.com"
 
       
       
@@ -35,6 +37,7 @@ const App = () =>{
       {/* <Child/> */}
       {/* <Esther/> */}
       <Counter/>
+      <SignIn/>
      
      
      
