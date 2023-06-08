@@ -197,23 +197,13 @@ function Navbar() {
       <div className="text-dark mt-3 mx-5 fs-4 fw-bold">Launch a new career in as little as 6 months <span className="fs-6 mx-4">View all roles-</span></div> 
       {/* <div className=" mt-3 mx-4 fs-3">Get job-ready for an in-demand career</div>
       <div className=" mt-3 mx-4 fs-5">Break into a new field like information technology or data science. No prior experience necessary to get started.</div> */}
-
-
-   <div className="container">
-     <div className="row">
-       <div className="col-12 shadow bg-danger">
-      <h1>hello</h1>
-       </div>
-     </div>
-   </div>
-
-     {/* <div className="w-100 bg-light shadow-sm m-auto">
+     <div className="w-100 bg-light shadow-sm m-auto">
       <div className="mx-5 mt-4 text-primary">Project Manager <span className="text-dark mx-3">Data Analyst</span>
-      </div> */}
+      </div>
 
 
 
-     {/* </div> */}
+     </div>
       
 
      
