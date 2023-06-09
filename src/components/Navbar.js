@@ -78,6 +78,9 @@ function Navbar() {
                   online degrees
                 </a>
                 <ul class="dropdown-menu">
+               <li><a class="dropdown-item" href="#">Online bachelore</a></li>
+   <li><a class="dropdown-item" href="#">Another action</a></li>
+<li><a class="dropdown-item" href="#">Something else here</a></li>
                   <li>
                     <a class="dropdown-item" href="#">
                       Action
@@ -160,7 +163,7 @@ function Navbar() {
             {/* <div className="btn btn-primary mt-3">Join for Free</div>
                <div>Try Coursera for Bussiness</div> */}
             <button class="btn btn-primary p-3 mt-3 mx-5 fw-bold">Join for Free</button>
-            <button class=" pe-4 px-4 mx-3 p-2 mt-3 text-primary border-primary border round fs-5 fw-bold mt-5">
+            <button class=" pe-4 px-4 mx-3 p-2 mt-3 text-primary border-primary fs-5 fw-bold mt-5">
               Try Coursera for Bussiness
             </button>
           </div>
@@ -204,7 +207,7 @@ function Navbar() {
 
      <div className="container">
        <div className="row">
-         <div className="col-11 mx-5 border border-light-3 mt-3">
+         <div className="col-12 border border-light-4 mt-3">
         <div className="mt-4 mx-4 fs-3 fw-bold ">Project Manager</div>
         <div className="mx-4 mt-1">Oversee the planning and execution of projects to ensure they're successful</div>
          <div className="fw-bold mt-5 mx-4">Median entry-level salary</div>
