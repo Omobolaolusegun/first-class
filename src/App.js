@@ -3,8 +3,8 @@ import React from "react"
 import Navbar from "./components/Navbar"
 // import Child from "./components/Child"
 // import counter from "./components/counter"
-import Counter from './components/Counter'
-import SignIn from './components/SignIn'
+// import Counter from './components/Counter'
+// import SignIn from './components/SignIn'
 
 // import style from "./components/app.module.css"
 
@@ -36,8 +36,8 @@ const App = () =>{
       <Navbar/>
       {/* <Child/> */}
       {/* <Esther/> */}
-      <Counter/>
-      <SignIn/>
+      {/* <Counter/> */}
+      {/* <SignIn/> */}
      
      
      

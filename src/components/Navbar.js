@@ -160,7 +160,7 @@ function Navbar() {
             {/* <div className="btn btn-primary mt-3">Join for Free</div>
                <div>Try Coursera for Bussiness</div> */}
             <button class="btn btn-primary p-3 mt-3 mx-5 fw-bold">Join for Free</button>
-            <button class=" pe-4 px-4 mx-3 mt-3 text-primary border-primary border round fs-5 fw-bold mt-5">
+            <button class=" pe-4 px-4 mx-3 p-2 mt-3 text-primary border-primary border round fs-5 fw-bold mt-5">
               Try Coursera for Bussiness
             </button>
           </div>
@@ -198,12 +198,57 @@ function Navbar() {
       {/* <div className=" mt-3 mx-4 fs-3">Get job-ready for an in-demand career</div>
       <div className=" mt-3 mx-4 fs-5">Break into a new field like information technology or data science. No prior experience necessary to get started.</div> */}
      <div className="w-100 bg-light shadow-sm m-auto">
-      <div className="mx-5 mt-4 text-primary">Project Manager <span className="text-dark mx-3">Data Analyst</span>
+      <div className="mx-5 mt-4 text-primary">Project Manager <span className="text-dark mx-3" className="mx-3 text-dark">Data Analyst <span className="mx-3 text-dark">UX Designer <span className="mx-3 text-dark">IT Support Specialist <span className="mx-3 text-dark">Digital Marketer <span className="mx-4">Dtat Scientist <span className="mx-4">Front End Developer <span className="mx-3">BookKeeper</span></span></span></span></span></span></span>
       </div>
-
-
-
      </div>
+
+     <div className="container">
+       <div className="row">
+         <div className="col-11 mx-5 border border-light-3 mt-3">
+        <div className="mt-4 mx-4 fs-3 fw-bold ">Project Manager</div>
+        <div className="mx-4 mt-1">Oversee the planning and execution of projects to ensure they're successful</div>
+         <div className="fw-bold mt-5 mx-4">Median entry-level salary</div>
+         <div className="container">
+           <div className="row">
+             <div className="col-4">
+
+         <div className="bg-secondary rounded-2 fw-bold text-dark mx-3 mt-3">All occupation</div>
+             </div>
+           </div>
+         </div>
+         <div className="border bg-primary mx-4 mt-3 rounded-2">Project Manager</div>
+         <div className="border border-light-2 mt-4"></div>
+         <div className="mx-4 mt-3">job openings: <span className="fw-bold">477,722</span> <span className="fw-bold">**</span></div>
+         <div className="mx-4 mt-2">projected 10 year growth: <span className="fw-bold">+12.6%</span> <span className="fw-bold">***</span></div>
+       <div className="fw-bold mt-5 mx-4 fs-5">Recommended Pofessional Certificates</div>
+
+       <div className="container">
+         <div className="row">
+           <div className="col-12">
+             <div className="col-4 shadow mx-4">
+
+             <img src="Pythonlearn_thumbnail_1x1.png" alt=""/>
+             <img className="mt-3" src="google.png" alt=""/>
+             <div className="fw-bold">Google Project Manager:</div>
+             <div>Skills you'ii gain: <span className="fs-6">Original Cuture,Career,Development,Strategic Thinking,Change...</span></div>
+             <div className="mt-3">4.8 (80.8k reviews)</div>
+             <div className="mt-2">Begginer.Professional Certificate</div>
+             <div className="container">
+               <div className="row">
+                 <div className="col-5 shadow">
+                  <h1>hello</h1>
+             </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+         </div>
+       </div>
+     </div>
+
+
       
 
      

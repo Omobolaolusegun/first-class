@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 // import Counter from './components/Counter'
 // import Navbar from './components/Navbar'
 // import State from './components/State'
-import SignIn from './components/SignIn';
+// import SignIn from './components/SignIn';
 // import Bndout from './components/Bndout'
 // import Nav from "./components/Nav"
 
@@ -22,7 +22,7 @@ root.render(
     {/* <Counter/> */}
     {/* <Navbar/> */}
     {/* <State/> */}
-    <SignIn/>
+    {/* <SignIn/> */}
     {/* <Bndout/> */}
     {/* <Nav/> */}
     
