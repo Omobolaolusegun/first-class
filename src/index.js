@@ -11,7 +11,7 @@ import reportWebVitals from './reportWebVitals';
 // import Bndout from './components/Bndout'
 // import Nav from "./components/Nav"
 
-// import Button from './components/Button'
+import Button from './components/Button'
 // import Child from './components/Child'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -26,7 +26,7 @@ root.render(
     {/* <Bndout/> */}
     {/* <Nav/> */}
     
-    {/* <Button/> */}
+    <Button/>
     {/* <Child/> */}
   </React.StrictMode>
 );
